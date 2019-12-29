@@ -4543,11 +4543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Visual Studio\\Testelka\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
       "projectName": "TestowyProjekt",
-      "projectPath": "E:\\Visual Studio\\Testelka\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Visual Studio\\Testelka\\TestowyProjekt\\TestowyProjekt\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
