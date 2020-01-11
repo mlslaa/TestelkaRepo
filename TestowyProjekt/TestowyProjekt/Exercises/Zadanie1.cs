@@ -22,7 +22,7 @@ namespace TestowyProjekt.DriverMethods
         {
             string searchWikipedia = "https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna";
             driver.Navigate().GoToUrl(searchWikipedia);
-            string searchNasa ="https://www.nasa.gov/";
+            string searchNasa = "https://www.nasa.gov/";
             driver.Navigate().GoToUrl(searchNasa);
             driver.Navigate().Back();
             Assert.AreEqual(searchWikipedia, driver.Url, "Url is not correct");
