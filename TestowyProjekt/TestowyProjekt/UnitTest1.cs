@@ -28,7 +28,7 @@ namespace TestowyProjekt
             string title = "Wieloœwiat – Wikipedia, wolna encyklopedia";
             driver.FindElement(By.XPath(".//*[text() = '" + title + "']")).Click();
             string entryUrl = "https://pl.wikipedia.org/wiki/Wielo%C5%9Bwiat";
-            Assert.AreEqual(driver.Url, entryUrl, "URL is not correct.");
+            Assert.AreEqual(entryUrl, driver.Url, "URL is not correct.");
             
         }
         [TearDown]

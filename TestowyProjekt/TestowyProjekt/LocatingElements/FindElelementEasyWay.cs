@@ -27,7 +27,28 @@ namespace TestowyProjekt.LocatingElements
             search.Submit();
             Assert.AreEqual("Egipt – El Gouna – FakeStore", driver.Title, "Page title is not correct");
         }
+        [Test]
 
+        public void LocatingByLinkTest()
+        {
+            driver.Navigate().GoToUrl("https://fakestore.testelka.pl/product/fuerteventura-sotavento/");
+            driver.FindElement(By.LinkText("Zamknij")).Click();
+            IWebElement addToCartButton = driver.FindElement(By.Name("add-to-cart"));
+            addToCartButton.Click();
+            driver.FindElement(By.LinkText("Zobacz koszyk")).Click();
+            Assert.DoesNotThrow(() => driver.FindElement(By.LinkText("Przejdź do kasy")), "Link to payment button is not correct");
+        }
+        /*WERSJA Z DELEGEATĄ 
+        
+         TestDelegate findGoToPaymentLink = new TestDelegate(FindGoToPaymentLink);
+         Assert.DoesNotThrow(findGoToPaymentLink, "Lint to payment button is not correct");
+
+         }
+         private void FindGoToPaymentLink()
+         {
+             driver.FindElement(By.LinkText("Przejdź do kasy"));
+         }
+ */
         [TearDown]
         public void QuitDriver()
         {

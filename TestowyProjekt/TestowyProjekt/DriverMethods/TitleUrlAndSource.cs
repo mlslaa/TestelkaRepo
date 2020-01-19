@@ -36,7 +36,7 @@ namespace TestowyProjekt.DriverMethods
         {
             String imgText = "Johann Wilhelm Ritter.jpg";
             driver.Navigate().GoToUrl("https://pl.wikipedia.org/");
-            Assert.IsTrue(driver.PageSource.Contains(imgText), "source is not correct");
+            Assert.False(driver.PageSource.Contains(imgText), "source is not correct");
         }
 
 

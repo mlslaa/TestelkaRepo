@@ -190,3 +190,5 @@ C:\Users\Lenovo\source\repos\MyFirstProject\TestowyProjekt\TestowyProjekt\obj\De
 C:\Users\Lenovo\source\repos\MyFirstProject\TestowyProjekt\TestowyProjekt\obj\Debug\netcoreapp3.1\TestowyProjekt.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\MyFirstProject\TestowyProjekt\TestowyProjekt\obj\Debug\netcoreapp3.1\TestowyProjekt.dll
 C:\Users\Lenovo\source\repos\MyFirstProject\TestowyProjekt\TestowyProjekt\obj\Debug\netcoreapp3.1\TestowyProjekt.pdb
+C:\Users\Lenovo\source\repos\MyFirstProject\TestowyProjekt\TestowyProjekt\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+C:\Users\Lenovo\source\repos\MyFirstProject\TestowyProjekt\TestowyProjekt\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll

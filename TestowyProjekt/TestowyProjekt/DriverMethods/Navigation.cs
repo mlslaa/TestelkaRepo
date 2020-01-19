@@ -28,7 +28,7 @@ namespace TestowyProjekt.DriverMethods
         {
             driver.Navigate().GoToUrl("https://google.pl");
             string expectedUrl = "https://www.google.pl/";
-            Assert.AreEqual(driver.Url, expectedUrl, "Url is not correct");
+            Assert.AreEqual( expectedUrl, driver.Url, "Url is not correct");
         }
         [Test]
         public void BackTest()
@@ -38,7 +38,7 @@ namespace TestowyProjekt.DriverMethods
             driver.Navigate().Back();
 
             string expectedUrl = "https://www.google.pl/";
-            Assert.AreEqual(driver.Url, expectedUrl, "Url is not correct");
+            Assert.AreEqual(expectedUrl, driver.Url, "Url is not correct");
         }
         [Test]
         public void ForwardTest()
