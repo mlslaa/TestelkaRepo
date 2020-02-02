@@ -56,7 +56,7 @@ namespace TestowyProjekt.FakestoreMyTests
             Assert.IsTrue(successMsg.Text.Equals("Success"));
         }
         [Test]
-        public void UdemyInerrogationElementsTest()
+        public void UdemyInterrogationElementsTest()
         {
             driver.Navigate().GoToUrl("https://ultimateqa.com/simple-html-elements-for-automation/");
             driver.Manage().Window.Maximize();
