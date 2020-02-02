@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj": {}
+    "C:\\Users\\Lenovo\\Source\\Repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj": {
+    "C:\\Users\\Lenovo\\Source\\Repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
         "projectName": "TestowyProjekt",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\TestowyProjekt.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\MyFirstProject\\TestowyProjekt\\TestowyProjekt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
